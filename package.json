@@ -1,6 +1,6 @@
 {
   "name": "monaco-tokenizer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A standalone tokenizer from monaco-editor",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
