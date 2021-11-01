@@ -1,0 +1,27 @@
+{
+  "name": "monaco-tokenizer",
+  "version": "0.0.1",
+  "description": "A standalone tokenizer from monaco-editor",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "rollup -c && cp ./types/* ./dist/src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ray",
+  "license": "ISC",
+  "dependencies": {
+    "monaco-editor-core": "^0.25.1",
+    "monaco-languages": "^2.5.0",
+    "window-mock": "^0.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "rollup": "^2.53.0",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
