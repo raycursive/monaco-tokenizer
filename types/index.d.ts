@@ -9,3 +9,4 @@ type Token = {
 export declare function tokenize(text: string, languageId: string): Token[][];
 export declare const register: typeof languages.register;
 export declare const setMonarchTokensProvider: typeof languages.setMonarchTokensProvider;
+export declare type IMonarchLangauge = languages.IMonarchLanguage;
